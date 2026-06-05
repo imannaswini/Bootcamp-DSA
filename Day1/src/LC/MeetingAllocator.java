@@ -16,20 +16,17 @@ public class MeetingAllocator
         }
         java.util.Arrays.sort(start);
         java.util.Arrays.sort(end);
-        int rooms = 0, maxRooms = 0;
-        int i = 0, j = 0;
-        while (i < n) {
-            if (start[i] < end[j]) {
-                rooms++;
-                maxRooms = Math.max(maxRooms, rooms);
-                i++;
+        int roomsRequired = 0, endPointer = 0;
+        for (int i = 0; i < n; i++) {
+            if (start[i] < end[endPointer]) {
+                roomsRequired++;
             } else {
-                rooms--;
-                j++;
+                endPointer++;
             }
         }
-        return maxRooms;
+        return roomsRequired;
     }
+    
 
     public static void main(String[] args) 
  {
