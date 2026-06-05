@@ -1,0 +1,23 @@
+
+#Pattern 
+   1. Two Pointer
+   2. Sorting (Sweep Line)
+
+When to use ?
+1. Maximum Overlapping Intervals
+2. Minimum Meeting rules
+3. Number of Platforms
+4. Resource Allocation 
+
+#Algorithm
+Greedy
+
+When to recognize this?
+1. Local best choice
+2. No backtracking
+
+Some greedy problems also have :
+1.Meeting by end time
+2.Intervals by start and end time
+3.sorting by profit/deadline
+
