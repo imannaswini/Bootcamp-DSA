@@ -36,6 +36,7 @@ public class SubscriptionRenewal
     System.out.println("Enter the days of renewal:");
     for (int i = 0; i < n; i++) {
       days[i] = sc.nextInt();
+    
     }
     System.out.println("Enter the value of K:");
     int k = sc.nextInt();
